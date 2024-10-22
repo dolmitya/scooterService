@@ -39,5 +39,6 @@
 2. **История поездок пользователя**  
    Пользователь может просматривать историю своих поездок, включая время начала и окончания аренды, расстояние и стоимость поездки.
    
-   ![image](https://github.com/user-attachments/assets/dbcb6f24-064f-469e-b856-fa66dd0d6380)
+   ![image](https://github.com/user-attachments/assets/e9dc7d7c-29e8-446b-8a12-2aad727b5ddf)
+
 
