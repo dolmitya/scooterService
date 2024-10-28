@@ -1,4 +1,4 @@
-﻿namespace ScooterService.Service.loC;
+﻿namespace ScooterService.loC;
 
 public class SwaggerConfigurator
 {
