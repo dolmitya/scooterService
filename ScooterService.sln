@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterService", "ScooterSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterDataAccess", "ScooterDataAccess\ScooterDataAccess.csproj", "{5F62C251-AAAB-4A96-B96F-AA460C8A212D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{A8FA695B-88E3-4C59-B631-27F3DEE2ABEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5F62C251-AAAB-4A96-B96F-AA460C8A212D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F62C251-AAAB-4A96-B96F-AA460C8A212D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F62C251-AAAB-4A96-B96F-AA460C8A212D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FA695B-88E3-4C59-B631-27F3DEE2ABEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FA695B-88E3-4C59-B631-27F3DEE2ABEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FA695B-88E3-4C59-B631-27F3DEE2ABEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FA695B-88E3-4C59-B631-27F3DEE2ABEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

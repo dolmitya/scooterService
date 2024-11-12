@@ -4,6 +4,76 @@
     "A:\\dotenete\\ScooterService\\ScooterService.csproj": {}
   },
   "projects": {
+    "A:\\dotenete\\BL\\BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\dotenete\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "A:\\dotenete\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
+        "outputPath": "A:\\dotenete\\BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "A:\\dotenete\\ScooterDataAccess\\ScooterDataAccess.csproj": {
+                "projectPath": "A:\\dotenete\\ScooterDataAccess\\ScooterDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Дмитрий\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "A:\\dotenete\\ScooterDataAccess\\ScooterDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -108,6 +178,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "A:\\dotenete\\BL\\BL.csproj": {
+                "projectPath": "A:\\dotenete\\BL\\BL.csproj"
+              },
               "A:\\dotenete\\ScooterDataAccess\\ScooterDataAccess.csproj": {
                 "projectPath": "A:\\dotenete\\ScooterDataAccess\\ScooterDataAccess.csproj"
               }
@@ -129,6 +202,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"

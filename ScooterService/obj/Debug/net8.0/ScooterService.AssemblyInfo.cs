@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScooterService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+437927cfc5979d1601a840d04a94178a4c7c8b72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48f010f44ee84cf06bd831a634121c5c714dd61a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScooterService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScooterService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

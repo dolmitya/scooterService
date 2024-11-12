@@ -147,3 +147,9 @@ A:\dotenete\ScooterService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Works
 A:\dotenete\ScooterService\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 A:\dotenete\ScooterService\bin\Debug\net8.0\ScooterDataAccess.dll
 A:\dotenete\ScooterService\bin\Debug\net8.0\ScooterDataAccess.pdb
+A:\dotenete\ScooterService\bin\Debug\net8.0\AutoMapper.dll
+A:\dotenete\ScooterService\bin\Debug\net8.0\FluentValidation.dll
+A:\dotenete\ScooterService\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+A:\dotenete\ScooterService\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+A:\dotenete\ScooterService\bin\Debug\net8.0\BL.dll
+A:\dotenete\ScooterService\bin\Debug\net8.0\BL.pdb

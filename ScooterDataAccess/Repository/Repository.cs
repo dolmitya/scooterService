@@ -6,9 +6,9 @@ namespace ScooterDataAccess.Repository;
 
 public class Repository<T> : IRepository<T> where T : BaseEntity
 {
-    private readonly IDbContextFactory<DbContext> _contextFactory;
+    private readonly IDbContextFactory<ScooterDbContext> _contextFactory;
 
-    public Repository(IDbContextFactory<DbContext> contextFactory)
+    public Repository(IDbContextFactory<ScooterDbContext> contextFactory)
     {
         _contextFactory = contextFactory;
     }
