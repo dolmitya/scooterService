@@ -4,7 +4,7 @@ using ScooterDataAccess.Entities;
 
 namespace ScooterDataAccess.Repository;
 
-public class Repository<T> : IRepository<T> where T : BaseEntity
+public class Repository<T> : IRepository<T> where T : class, IBaseEntity
 {
     private readonly IDbContextFactory<ScooterDbContext> _contextFactory;
 

@@ -11,7 +11,6 @@ DbContextConfiguration.ConfigureServices(builder);
 SerilogConfigurator.ConfigureService(builder);
 SwaggerConfigurator.ConfigureServices(builder.Services);
 
-MapperConfigurator.ConfigureServices(builder.Services);
 ServicesConfigurator.ConfigureServices(builder.Services, settings);
 
 builder.Services.AddControllers();

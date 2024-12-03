@@ -8,7 +8,7 @@ using ScooterService.Controllers.Users.Entities;
 using ScooterService.Validator.User;
 using ILogger = Serilog.ILogger;
 
-namespace ScooterService.Controllers.Users;
+namespace ScooterService.Controllers;
 
 [ApiController]
 [Route("[controller]")]

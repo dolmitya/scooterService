@@ -24,6 +24,13 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
         <ProjectReference Include="..\ScooterDataAccess\ScooterDataAccess.csproj"/>
         <ProjectReference Include="..\BL\BL.csproj"/>
+
+        <PackageReference Include="Duende.IdentityServer" Version="7.0.8" />
+        <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="7.0.8" />
+        <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="7.0.8" />
+        <PackageReference Include="Duende.IdentityServer.EntityFramework.Storage" Version="7.0.8" />
+        <PackageReference Include="Duende.IdentityServer.Storage" Version="7.0.8" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     </ItemGroup>
 
 </Project>

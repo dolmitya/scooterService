@@ -1,6 +1,8 @@
 using AutoMapper;
+using BL.Authorization;
 using BL.Users.Manager;
 using BL.Users.Provider;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ScooterDataAccess;
 using ScooterDataAccess.Entities;
@@ -22,5 +24,15 @@ public static class ServicesConfigurator
         services.AddScoped<IUsersManager>(x =>
             new UsersManager(x.GetRequiredService<IRepository<UserEntity>>(),
                 x.GetRequiredService<IMapper>()));
+        
+        services.AddScoped<IAuthProvider>(x =>
+            new AuthProvider(x.GetRequiredService<SignInManager<UserEntity>>(),
+                x.GetRequiredService<UserManager<UserEntity>>(),
+                x.GetRequiredService<IHttpClientFactory>(),
+                settings.IdentityServerUri!,
+                settings.ClientId!,
+                settings.ClientSecret!,
+                x.GetRequiredService<IMapper>()
+            ));
     }
 }

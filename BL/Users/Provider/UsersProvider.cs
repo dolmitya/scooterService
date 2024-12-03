@@ -35,8 +35,8 @@ public class UsersProvider : IUsersProvider
             (dateOfBirthPart == null || u.DateOfBirth == dateOfBirthPart) &&
             (mailPart == null || u.Mail.Contains(mailPart)) &&
             (creationTime == null || u.CreationTime == creationTime) &&
-            (modificationTime == null || u.ModificationTime == modificationTime) &&
-            (role == null || u.Role.Id == role)
+            (modificationTime == null || u.ModificationTime == modificationTime) /*&&
+            (role == null || u.Role.Id == role)*/
         );
         return _mapper.Map<IEnumerable<UserModel>>(users);
     }

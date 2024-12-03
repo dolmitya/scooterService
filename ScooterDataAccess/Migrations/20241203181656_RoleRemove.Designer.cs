@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using ScooterDataAccess;
@@ -11,9 +12,11 @@ using ScooterDataAccess;
 namespace ScooterDataAccess.Migrations
 {
     [DbContext(typeof(ScooterDbContext))]
-    partial class ScooterDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241203181656_RoleRemove")]
+    partial class RoleRemove
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
