@@ -65,7 +65,9 @@ public class AuthProvider(
         }
         var user = new UserEntity
         {
-            Email = email
+            Email = email,
+            UserName= email,
+            Login = email
         };
         var result = await userManager.CreateAsync(user, password);
         if (!result.Succeeded)

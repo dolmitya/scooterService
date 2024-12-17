@@ -324,7 +324,7 @@ namespace ScooterDataAccess.Migrations
                     b.Property<DateTime>("CreationTime")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("DateOfBirth")
+                    b.Property<DateTime?>("DateOfBirth")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Email")
@@ -346,15 +346,10 @@ namespace ScooterDataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Mail")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<DateTime>("ModificationTime")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("NormalizedEmail")
@@ -364,7 +359,6 @@ namespace ScooterDataAccess.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("PasswordHash")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Patronymic")
@@ -380,7 +374,6 @@ namespace ScooterDataAccess.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Surname")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<bool>("TwoFactorEnabled")

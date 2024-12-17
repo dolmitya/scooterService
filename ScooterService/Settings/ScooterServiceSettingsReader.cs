@@ -6,7 +6,7 @@ public class ScooterServiceSettingsReader
     {
         return new ScooterServiceSettings
         {
-            ScooterServiceDbContextConnectionString = configuration.GetValue<string>("AirTicketDbContext"),
+            ScooterServiceDbContextConnectionString = configuration.GetValue<string>("ScooterServiceDbContext"),
             ClientId = configuration.GetValue<string>("IdentityServerSettings:ClientId"),
             ClientSecret = configuration.GetValue<string>("IdentityServerSettings:ClientSecret"),
             IdentityServerUri = configuration.GetValue<string>("IdentityServerSettings:Uri")

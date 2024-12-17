@@ -33,7 +33,7 @@ public class UsersProvider : IUsersProvider
             (loginPart == null || u.Login == loginPart) &&
             (surnamePart == null || u.Surname.Contains(surnamePart)) &&
             (dateOfBirthPart == null || u.DateOfBirth == dateOfBirthPart) &&
-            (mailPart == null || u.Mail.Contains(mailPart)) &&
+            (mailPart == null || u.Email.Contains(mailPart)) &&
             (creationTime == null || u.CreationTime == creationTime) &&
             (modificationTime == null || u.ModificationTime == modificationTime) /*&&
             (role == null || u.Role.Id == role)*/
